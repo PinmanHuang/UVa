@@ -13,8 +13,8 @@ int main() {
         for(int i=0; i<r_num; i++) {
             cin >> s[i];
         }
-        sort(s, s+r_num);
-        int mid = s[r_num/2];
+        sort(s, s+r_num);   // sort the input data
+        int mid = s[r_num/2];   // find out the median
         int sum = 0;
         for(int i=0; i<r_num; i++) {
             sum += abs(s[i]-mid);
