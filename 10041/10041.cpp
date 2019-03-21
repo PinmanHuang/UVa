@@ -22,4 +22,5 @@ int main() {
         cout << sum << endl;
         data_size--;
     }
+    return 0;
 }
