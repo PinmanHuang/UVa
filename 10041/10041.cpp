@@ -19,7 +19,7 @@ int main() {
         for(int i=0; i<r_num; i++) {
             sum += abs(s[i]-mid);
         }
-        cout << sum << endl;
+        cout << sum << '\n';
         data_size--;
     }
     return 0;
