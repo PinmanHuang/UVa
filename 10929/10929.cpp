@@ -30,4 +30,5 @@ int main() {
  * 1. The integer may have 1000 digits -> using the char array to save it.          *
  * 2. Remember to clear char array after process one integer.                       *
  * 3. Because it is using strlen to calculate, needing to include cstring lib.      *
+ * 4. char to int -> use char-'0' to get the integer of input                       *
  ************************************************************************************/
