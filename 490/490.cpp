@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     cin.tie(0);
-    string str[100];    // Use string array to save all the inputs.
+    string str[101];    // Use string array to save all the inputs.
     int line=0, max=0;
     while (getline(cin, str[line])) {
         line++;         // Record the input line.
